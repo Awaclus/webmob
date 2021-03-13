@@ -16,7 +16,7 @@ body {
   font-size: 18px;
   color: #ccdaff !important;
   padding-right: calc(100% - 100vw);
-  
+  z-index: -1;
 }
 
 html {
