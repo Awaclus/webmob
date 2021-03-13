@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webmob/static/css/main.dd53e61e.chunk.css",
-    "main.js": "/webmob/static/js/main.849d2e1e.chunk.js",
-    "main.js.map": "/webmob/static/js/main.849d2e1e.chunk.js.map",
+    "main.js": "/webmob/static/js/main.cb8bb29f.chunk.js",
+    "main.js.map": "/webmob/static/js/main.cb8bb29f.chunk.js.map",
     "runtime-main.js": "/webmob/static/js/runtime-main.c6a8db2b.js",
     "runtime-main.js.map": "/webmob/static/js/runtime-main.c6a8db2b.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/webmob/static/css/2.4c97ca4f.chunk.css",
@@ -54,6 +54,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c3e037e8.chunk.js",
     "static/css/main.dd53e61e.chunk.css",
-    "static/js/main.849d2e1e.chunk.js"
+    "static/js/main.cb8bb29f.chunk.js"
   ]
 }
