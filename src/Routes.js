@@ -15,10 +15,10 @@ class Routes extends Component {
         return (
             <Router history={history}>
                 <Switch>
-                    <Route path="/webmob" exact component={Home} />
-                    <Route path="/webmob/#/Photos" component={Photos} />
-                    <Route path="/webmob/#/Contact" component={Contact} />
-                    <Route path="/webmob/#/Releases" component={Releases} />
+                    <Route path="/" exact component={Home} />
+                    <Route path="/Photos" component={Photos} />
+                    <Route path="/Contact" component={Contact} />
+                    <Route path="/Releases" component={Releases} />
                 </Switch>
             </Router>
         )
