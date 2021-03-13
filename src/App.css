@@ -1,38 +1,197 @@
-.App {
+.customNav {
+  background-color: rgba(41, 70, 151, 0.32);
+  color: #ccdaff !important;
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 24px;
+  width: calc(100% - 10px);
+}
+
+body {
+  background-image: linear-gradient(rgba(2, 5, 11, 0.5), rgba(2, 5, 11, 0.5)), url("./media/valokuvia/lamput.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 18px;
+  color: #ccdaff !important;
+  padding-right: calc(100% - 100vw);
+  
+}
+
+html {
+
+  overflow: overlay;
+}
+
+body.modal-open {
+  overflow:hidden !important;
+}
+
+.imgLink {
+  transition: all 0.15s ease;
+}
+
+.imgLink:hover {
+  cursor:pointer;
+  filter:brightness(1.2);
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(25, 66, 155, 0.1);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.0);
+}
+
+
+#biglogo {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#thrall {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+a {
+  color: #3654b7 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color:#628cff !important;
+}
+
+.btn-primary {
+  background-color:#3654b7 !important;
+  border-color: #3654b7 !important;
+  font-family: "Abel-Regular", sans-serif;
+  color:#ccdaff !important; 
+  font-size: 20px !important;
+  padding: 5px 30px 5px 30px !important;
+}
+
+.btn-primary:hover {
+  background-color:#628cff !important;
+}
+
+#content {
+  background-color: rgba(2,5,11,.65) !important;
+}
+
+p {
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.centered {
+  text-align: center !important;
+}
+
+h6 {
+  font-family: "Abel-Regular", sans-serif;
+  font-size: 22px !important;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  text-align: center;
+  font-size: 28px !important;
+  font-family: "Abel-Regular", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.emptySpace {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lessEmptySpace {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.customNavItem {
+  color: #ccdaff !important;
+  margin-right: 20px !important;
+  transition: all 0.15s ease;
+  position: relative;
+  top: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.customNavItem:hover {
+  
+  top: -4px;
+
 }
+
+.customNavItem.nav-link.active{
+  padding-bottom: 0px;
+  text-decoration: underline solid #ccdaff 6px !important;
+
+}
+
+.customNavItem.nav-link.active:hover{
+  padding-bottom: 0px;
+  text-decoration: underline solid #628cff 6px !important;
+
+}
+
+.modal-90w {
+  width: 95%;
+  max-width: 85vw !important;
+  border: 0;
+  text-align: center;
+  
+
+}
+.modal-header {
+  width: 100%;
+}
+
+.img-fluid {
+  max-height: 85vh;
+  text-align: center;
+}
+
+.photoModal {
+  max-height: 85vh;
+}
+
+.modal-content {
+  background-color: rgba(0,0,0,0) !important;
+  border: 0;
+}
+
+.modal-body {
+  background-color: rgba(0,0,0,0) !important;
+  border: 0;
+  padding: 0 !important;
+}
+
+.img-thumbnail {
+  padding: 0 !important;
+  background-color: rgba(0,0,0,0) !important;
+  border: 0 !important;
+}
+
+
+@font-face {
+  font-family: "Abel-Regular";
+  src: url('./media/Abel-Regular.ttf');
+}
+
