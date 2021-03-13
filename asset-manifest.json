@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webmob/static/css/main.2635657e.chunk.css",
+    "main.css": "/webmob/static/css/main.dd53e61e.chunk.css",
     "main.js": "/webmob/static/js/main.849d2e1e.chunk.js",
     "main.js.map": "/webmob/static/js/main.849d2e1e.chunk.js.map",
     "runtime-main.js": "/webmob/static/js/runtime-main.c6a8db2b.js",
@@ -12,7 +12,7 @@
     "static/js/3.e7f71764.chunk.js.map": "/webmob/static/js/3.e7f71764.chunk.js.map",
     "index.html": "/webmob/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/webmob/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2635657e.chunk.css.map": "/webmob/static/css/main.2635657e.chunk.css.map",
+    "static/css/main.dd53e61e.chunk.css.map": "/webmob/static/css/main.dd53e61e.chunk.css.map",
     "static/js/2.c3e037e8.chunk.js.LICENSE.txt": "/webmob/static/js/2.c3e037e8.chunk.js.LICENSE.txt",
     "static/media/App.css": "/webmob/static/media/lamput.db875d7b.png",
     "static/media/ArtsyJone.c76df48c.jpg": "/webmob/static/media/ArtsyJone.c76df48c.jpg",
@@ -53,7 +53,7 @@
     "static/js/runtime-main.c6a8db2b.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.c3e037e8.chunk.js",
-    "static/css/main.2635657e.chunk.css",
+    "static/css/main.dd53e61e.chunk.css",
     "static/js/main.849d2e1e.chunk.js"
   ]
 }
