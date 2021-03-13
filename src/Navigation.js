@@ -28,10 +28,10 @@ class Navigation extends React.Component {
         <Navbar.Collapse>
         <Nav defaultActiveKey={this.props.defaultTab}>
 
-        <Nav.Link eventKey="/" href="/" className="customNavItem">Home</Nav.Link>
-        <Nav.Link eventKey="/Releases" href="/Releases" className="customNavItem">Releases</Nav.Link>
-        <Nav.Link eventKey="/Photos" href="/Photos" className="customNavItem">Photos</Nav.Link>
-        <Nav.Link eventKey="/Contact" href="/Contact" className="customNavItem">Contact us</Nav.Link>
+        <Nav.Link eventKey="/" href="/#/" className="customNavItem">Home</Nav.Link>
+        <Nav.Link eventKey="/Releases" href="/#/Releases" className="customNavItem">Releases</Nav.Link>
+        <Nav.Link eventKey="/Photos" href="/#/Photos" className="customNavItem">Photos</Nav.Link>
+        <Nav.Link eventKey="/Contact" href="/#/Contact" className="customNavItem">Contact us</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Navbar>
