@@ -16,9 +16,9 @@ class Routes extends Component {
             <Router history={history}>
                 <Switch>
                     <Route path="/webmob" exact component={Home} />
-                    <Route path="/webmob/Photos" component={Photos} />
-                    <Route path="/webmob/Contact" component={Contact} />
-                    <Route path="/webmob/Releases" component={Releases} />
+                    <Route path="/webmob/#/Photos" component={Photos} />
+                    <Route path="/webmob/#/Contact" component={Contact} />
+                    <Route path="/webmob/#/Releases" component={Releases} />
                 </Switch>
             </Router>
         )

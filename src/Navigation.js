@@ -16,7 +16,7 @@ class Navigation extends React.Component {
      
         <>
         <Navbar collapseOnSelect expand="md" variant="dark" className="customNav">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/webmob">
         <img
             src={ logo }
             height="40"
@@ -29,9 +29,9 @@ class Navigation extends React.Component {
         <Nav defaultActiveKey={this.props.defaultTab}>
 
         <Nav.Link eventKey="/webmob" href="/webmob" className="customNavItem">Home</Nav.Link>
-        <Nav.Link eventKey="/webmob/Releases" href="/webmob/Releases" className="customNavItem">Releases</Nav.Link>
-        <Nav.Link eventKey="/webmob/Photos" href="/webmob/Photos" className="customNavItem">Photos</Nav.Link>
-        <Nav.Link eventKey="/webmob/Contact" href="/webmob/Contact" className="customNavItem">Contact us</Nav.Link>
+        <Nav.Link eventKey="/webmob/#/Releases" href="/webmob/#/Releases" className="customNavItem">Releases</Nav.Link>
+        <Nav.Link eventKey="/webmob/#/Photos" href="/webmob/#/Photos" className="customNavItem">Photos</Nav.Link>
+        <Nav.Link eventKey="/webmob/#/Contact" href="/webmob/#/Contact" className="customNavItem">Contact us</Nav.Link>
         </Nav>
         </Navbar.Collapse>
         </Navbar>

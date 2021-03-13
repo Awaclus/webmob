@@ -2,7 +2,7 @@
   "name": "webmob",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://awaclus.github.io/webmob",
+  "homepage": "https://awaclus.github.io/webmob",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
