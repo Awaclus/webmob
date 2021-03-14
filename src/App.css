@@ -17,12 +17,14 @@ body {
   color: #ccdaff !important;
   padding-right: calc(100% - 100vw);
   z-index: -1;
-  min-height: 100vh;
+  min-height: 120vh;
+
 }
 
 @media (max-height: 975px) and (max-width: 1791px) {
   body {
     background-size: 110% auto !important;
+
   }
 }
 
