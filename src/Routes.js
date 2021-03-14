@@ -13,7 +13,7 @@ class Routes extends Component {
 
     render() {
         return (
-            <Router history={history}>
+            <Router history={history} basename="/webmob">
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/Photos" component={Photos} />

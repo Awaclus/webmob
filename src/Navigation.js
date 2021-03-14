@@ -16,7 +16,7 @@ class Navigation extends React.Component {
      
         <>
         <Navbar collapseOnSelect expand="md" variant="dark" className="customNav">
-        <Navbar.Brand href="/webmob">
+        <Navbar.Brand href="/">
         <img
             src={ logo }
             height="40"
