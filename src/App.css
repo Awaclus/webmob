@@ -18,6 +18,10 @@ body {
   padding-right: calc(100% - 100vw);
   z-index: -1;
   min-height: 100vh;
+  transition: height 1000000s ease;
+  -webkit-transition: height 1000000s ease;
+  -moz-transition: height 1000000s ease;
+  -o-transition: height 1000000s ease;
 }
 
 html {
