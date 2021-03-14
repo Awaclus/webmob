@@ -17,6 +17,7 @@ body {
   color: #ccdaff !important;
   padding-right: calc(100% - 100vw);
   z-index: -1;
+  min-height: 100vh;
 }
 
 html {
