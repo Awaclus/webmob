@@ -23,7 +23,7 @@ body {
 
 @media (max-height: 975px) and (max-width: 1791px) {
   body {
-    background-size: 110% auto !important;
+    background-size: auto !important;
 
   }
 }
